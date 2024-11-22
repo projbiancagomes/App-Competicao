@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff99cc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+  }
+  
+  #rodada {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #current-round, #ranking-tree {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .choice {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #ff6699;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .choice:hover {
+    background-color: #ff3366;
+    transform: scale(1.05);
+  }
+  
+  .choice img {
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  
+  h2, h3, h4 {
+    margin: 10px 0;
+  }
+  
+  .round {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .match {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+  }
+  
+  .match .competitor {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .match img {
+    max-width: 150px;
+    border-radius: 8px;
+  }
+  
+  .match span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  .final-match {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .final-match img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
